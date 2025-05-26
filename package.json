@@ -1,0 +1,15 @@
+{
+  "name": "mcp-weather-server",
+  "version": "1.0.0",
+  "description": "A lightweight MCP server that fetches real-time weather data from OpenWeather.org based on city names. Built with @modelcontextprotocol/sdk, this tool allows LLM-based agents (like those in Cursor IDE) to retrieve current weather conditions such as temperature, humidity, wind speed, and pressure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.25.28"
+  }
+}
