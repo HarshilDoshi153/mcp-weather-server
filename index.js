@@ -45,3 +45,4 @@ async function init() {
     await server.connect(transport);
 }
 init();
+console.log("Hello")
